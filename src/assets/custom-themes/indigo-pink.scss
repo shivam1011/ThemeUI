@@ -3,5 +3,6 @@
 $primary: mat-palette($mat-indigo);
 $accent: mat-palette($mat-pink, A200, A100, A400);
 $theme: mat-light-theme($primary, $accent);
+$shivam: mat-palette($mat-amber, A200, A100, A400);
 @include angular-material-theme($theme);
 @include material-custom-theme($theme);
